@@ -1,0 +1,29 @@
+public class fizzbuzz1 {
+  public String fizzString(String str) {
+  if (str.startsWith("f")) {
+      if (str.endsWith("b")) {
+        return "FizzBuzz";
+      } else {
+        return "Fizz";
+      }
+    } else {
+      if (str.endsWith("b")) {
+        return "Buzz";
+      } else {
+        return str;
+      }
+    }
+  }
+}
+
+public class fizzbuzz2 {
+  public String fizzString(String str) {
+  boolean f = str.startsWith("f");
+    boolean b = str.endsWith("b");
+
+    if (f && b) return "FizzBuzz";
+    if (f) return "Fizz";
+    if (b) return "Buzz";
+    return str;
+  }
+}
