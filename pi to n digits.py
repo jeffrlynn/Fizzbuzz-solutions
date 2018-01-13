@@ -1,7 +1,7 @@
 #Program will prompt user to input the number of pi decmimals they would like to see, then give them the result.
 
 
-number = int(input("How many decimals of pi would you like to see?\nEnter and number from 0 to 50:  "));
+number = int(input("How many decimals of pi would you like to see?\nEnter any number from 0 to 50:  "));
 
 from math import pi
 def CalcPi(number):
