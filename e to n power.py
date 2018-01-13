@@ -7,7 +7,7 @@ from math import e
 def CalcE(number):
     if number == 0:
         return 1.0
-    if 0 < number < 50:
+    if 0 < number <= 50:
         return e**number;
     else:
         return "Too powerful!";
