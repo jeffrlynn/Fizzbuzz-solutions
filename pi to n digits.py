@@ -7,7 +7,7 @@ from math import pi
 def CalcPi(number):
     if number == 0:
         return 3
-    if 0 < number < 50:
+    if 0 < number <= 50:
         return format(pi, '.' + str(number) + 'f');
     else:
         return "Too many digits requested.";
