@@ -1,4 +1,4 @@
-#Program will prompt user to input the the power they would like e raised to, then give them the result.
+#Program will prompt user to input the power they would like e raised to, then give them the result.
 
 
 number = int(input("What power of e would you like to see?\nEnter any number from 0 to 50:  "));
