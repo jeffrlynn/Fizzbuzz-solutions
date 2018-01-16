@@ -1,4 +1,4 @@
-#Program will prompt user to input a number, then give them the result.
+#Program will prompt user to input a number, then give them the prime factorization of that number.
 
 
 num = int(input("Enter a number to see its prime factorization:  "));
